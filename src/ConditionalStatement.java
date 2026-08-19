@@ -37,10 +37,9 @@ public class ConditionalStatement {
 //        System.out.println(level);
 //            }
 //        }
-
-        int age = 10;
-        StringBasic agelimit = (age <= 18) ? "not eligble" : "eligble";
-        System.out.println("age limit:"+ agelimit);
+//
+//        int age = 10;
+//        StringBasic agelimit = (age <= 18) ? "not eligble" : "eligble";
+//        System.out.println("age limit:"+ agelimit);
     }
-
 }
