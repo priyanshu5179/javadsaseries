@@ -31,7 +31,7 @@ public class UserDefineDataType {
         System.out.print("Enter student age: ");
         student2.age = sc.nextInt();
 
-        student2.name = "Love";
+        student2.name = "Himanshu";
         student2.nos = 50;
 
         System.out.println("Student name: " + student2.name);
