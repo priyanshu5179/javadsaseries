@@ -11,6 +11,9 @@ public class UserDefineDataType {
         int age;
         String name;
         int nos;
+        void print(){
+            System.out.println(name+" "+id+" "+age);
+        }
     }
 
     public static void main(String[] args) {
@@ -36,5 +39,7 @@ public class UserDefineDataType {
 
         System.out.println("Student name: " + student2.name);
         System.out.println("Student age: " + student2.age);
+        student1.print();
+        student2.print();
     }
 }
