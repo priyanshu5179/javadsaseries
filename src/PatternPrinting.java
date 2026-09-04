@@ -1,6 +1,6 @@
-
- public class PatternPrinting {
-     public static void main() {
+//
+// public class PatternPrinting {
+//     public static void main() {
 //                int n = 5;
 //
 //                for (int row = 1; row <= n; row++) {
