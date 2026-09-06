@@ -46,5 +46,11 @@ public class Main {
         while (iterator.hasNext()) {
             System.out.println("element: " + iterator.next());
         }
+        ArrayList<Integer> arr2=new ArrayList<>();
+        arr2.add(23);
+        arr2.add(53);
+        arr2.add(63);
+        System.out.println(arr2.get(2));
+        arr2.set(0,100)
     }
 }
