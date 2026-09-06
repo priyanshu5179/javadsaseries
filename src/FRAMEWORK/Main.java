@@ -83,7 +83,14 @@ public class Main {
         Collections.sort(arr);
 
         System.out.println("print entire list: " + arr);
+        //creating new array for clone the value in the new array
         ArrayList<Integer> newarr= (ArrayList<Integer>) arr.clone();
         System.out.println("print newarr :"+newarr);
+        // crating new array for checking the array is empyt or not 
+        ArrayList<Integer> marks = new ArrayList<>();
+        marks.ensureCapacity(100);
+        System.out.println(marks.isEmpty());
+        // find the index of the elements
+        System.out.println(arr.indexOf(63));
     }
 }
