@@ -9,7 +9,6 @@ public class Main {
 
         ArrayList<Integer> arr = new ArrayList<>();
 
-//        arr.add(10);
         arr.add(50);
         arr.add(10);
 
@@ -46,13 +45,36 @@ public class Main {
         while (iterator.hasNext()) {
             System.out.println("element: " + iterator.next());
         }
-        ArrayList<Integer> arr2=new ArrayList<>();
+
+        // Another ArrayList
+        ArrayList<Integer> arr2 = new ArrayList<>();
+
         arr2.add(23);
         arr2.add(53);
         arr2.add(63);
+
         System.out.println(arr2.get(2));
-        System.out.println("before:"+arr2);
-        arr2.set(0,100);
-        System.out.println("after:"+arr2);
+
+        System.out.println("before: " + arr2);
+
+        arr2.set(0, 100);
+
+        System.out.println("after: " + arr2);
+
+        // toArray()
+        Object[] arr3 = arr2.toArray();
+
+        for (Object obj : arr3) {
+            System.out.println(obj);
+        }
+        System.out.println(arr2.contains(63));
+
+        arr.add(70);
+        arr.add(60);
+
+        System.out.println( "print entire list :"+arr);
+
+        collection.sort(arr);
+        System.out.println( "print entire list :"+arr);
     }
 }
