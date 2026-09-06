@@ -1,14 +1,16 @@
 package FRAMEWORK;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Collections;
 
 public class Main {
 
     public static void main(String[] args) {
-
+//create array
         ArrayList<Integer> arr = new ArrayList<>();
-
+//add the value
         arr.add(50);
         arr.add(10);
 
@@ -16,7 +18,7 @@ public class Main {
 
         arr.add(30);
         System.out.println(arr);
-
+//remove the value from the array using this method
         arr.remove(0);
         System.out.println(arr);
 
@@ -28,7 +30,7 @@ public class Main {
 
         arr.addAll(arr1);
         System.out.println(arr);
-
+//remove the all the value from the array
         arr.removeAll(arr1);
         System.out.println(arr);
 
@@ -67,14 +69,21 @@ public class Main {
         for (Object obj : arr3) {
             System.out.println(obj);
         }
+
+        // contains()
         System.out.println(arr2.contains(63));
 
+        // Add more elements
         arr.add(70);
         arr.add(60);
 
-        System.out.println( "print entire list :"+arr);
+        System.out.println("print entire list: " + arr);
 
-        collection.sort(arr);
-        System.out.println( "print entire list :"+arr);
+        // Sort ArrayList
+        Collections.sort(arr);
+
+        System.out.println("print entire list: " + arr);
+        ArrayList<Integer> newarr= (ArrayList<Integer>) arr.clone();
+        System.out.println("print newarr :"+newarr);
     }
 }
