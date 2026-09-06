@@ -51,6 +51,8 @@ public class Main {
         arr2.add(53);
         arr2.add(63);
         System.out.println(arr2.get(2));
-        arr2.set(0,100)
+        System.out.println("before:"+arr2);
+        arr2.set(0,100);
+        System.out.println("after:"+arr2);
     }
 }
