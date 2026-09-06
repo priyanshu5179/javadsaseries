@@ -33,17 +33,17 @@ public class Main {
 //remove the all the value from the array
         arr.removeAll(arr1);
         System.out.println(arr);
-
+//check the array size
         System.out.println(arr.size());
 
         System.out.println("print arr1: " + arr1);
-
+//clar the all the value in the array
         arr1.clear();
         System.out.println(arr1.size());
 
         // Traverse ArrayList using Iterator
         Iterator<Integer> iterator = arr.iterator();
-
+//hash is using for going next index in the array
         while (iterator.hasNext()) {
             System.out.println("element: " + iterator.next());
         }
@@ -58,7 +58,7 @@ public class Main {
         System.out.println(arr2.get(2));
 
         System.out.println("before: " + arr2);
-
+// it is for insert the new element the idenx
         arr2.set(0, 100);
 
         System.out.println("after: " + arr2);
