@@ -101,6 +101,6 @@ import java.util.Collections;
         // Check whether LinkedList is empty
         System.out.println("Is marks empty? " + marks.isEmpty());
 
-        // Find index of an
+        // Find index of an element
         System.out.println("Index of 63: " + arr.indexOf(63));
     }
