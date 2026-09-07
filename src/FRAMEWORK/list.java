@@ -98,7 +98,7 @@ import java.util.Collections;
         // LinkedList does NOT have ensureCapacity()
         // marks.ensureCapacity(100);  // ❌ Not possible
 
-        // Check whether LinkedList is empty
+        // Check whether LinkedList is empt
         System.out.println("Is marks empty? " + marks.isEmpty());
 
         // Find index of an element
