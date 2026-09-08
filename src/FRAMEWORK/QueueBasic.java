@@ -15,5 +15,6 @@ public class QueueBasic {
         System.out.println(q);
         System.out.println(q.peek());
         System.out.println(q);
+        
     }
 }
