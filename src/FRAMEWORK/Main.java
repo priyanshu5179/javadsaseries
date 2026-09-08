@@ -90,5 +90,8 @@ public class Main {
         System.out.println(marks.isEmpty());
         // find the index of the elements
         System.out.println(arr.indexOf(63));
+
+
+
     }
 }

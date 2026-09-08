@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.LinkedList;
 import java.util.Iterator;
 import java.util.Collections;
@@ -98,9 +99,40 @@ import java.util.Collections;
         // LinkedList does NOT have ensureCapacity()
         // marks.ensureCapacity(100);  // ❌ Not possible
 
-        // Check whether LinkedList is empt
+        // Check whether LinkedList is empty
         System.out.println("Is marks empty? " + marks.isEmpty());
 
         // Find index of an element
         System.out.println("Index of 63: " + arr.indexOf(63));
+        //make linkedlist
+        LinkedList<Integer> ll = new LinkedList<>();
+        ll.add(10);
+        System.out.println(ll);
+        ll.addFirst(1);
+        System.out.println(ll);
+        ll.addLast(100);
+        System.out.println(ll);
+        ll.removeLast();
+        System.out.println(ll);
+        //finding first element
+
+        System.out.println(ll.getFirst());
+
+        //GET LAST ELEMENT
+        System.out.println(ll.getLast());
+        //GIVE THE FIRST ELEMENT OF THE LINK LIST
+
+
+        System.out.println(ll.peek());
+
+        //REMOVE THE FIRST ELEMENT FROM THE LINL LIST AND RETURN FIRST ELEMENT
+
+        System.out.println("before:"+ll);
+        System.out.println("polling:"+ll.poll());
+        System.out.println("After:"+ll);
+
+
+
+
+
     }
