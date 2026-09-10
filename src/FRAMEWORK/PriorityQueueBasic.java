@@ -14,7 +14,5 @@ public class PriorityQueueBasic {
         pq.add(72);
         System.out.println(pq);
         System.out.println(pq.poll());
-     
-
     }
 }
