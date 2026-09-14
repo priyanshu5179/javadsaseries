@@ -6,7 +6,6 @@
 ////    void print(){
 ////        System.out.println(name+"  "+rno+"  "+cgpa);
 //    void getrno(){
-//
 //    }
 //}
 //public class PrivateKeyword {
