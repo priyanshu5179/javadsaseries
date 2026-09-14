@@ -39,6 +39,7 @@ public class UserDefineDataType {
 
         System.out.println("Student name: " + student2.name);
         System.out.println("Student age: " + student2.age);
+system.out.println
         student1.print();
         student2.print();
     }
